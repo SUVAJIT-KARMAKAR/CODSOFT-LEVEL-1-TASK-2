@@ -1,0 +1,35 @@
+.menu {
+    width: 100vw;
+    margin: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &-title {
+        color: $tertiary-contrast-color;
+        font-size: clamp(1.3rem, 2vw, 2.1rem);
+
+        &__prog {
+            color: $secondary-contrast-color;
+            border-bottom: 0.1rem solid $tertiary-contrast-color;
+
+            &:hover {
+                border-bottom: 0.1rem solid $primary-icon-color;
+                cursor:pointer;
+            }
+        }
+    }
+
+    &-fork {
+        color: $tertiary-contrast-color;
+        padding:  0.4rem 0.5rem;
+        border: 0.1rem solid $primary-icon-color;
+        border-radius: 1rem;
+        transition: all 0.5s ease;
+
+        &:hover {
+            background-color: $primary-icon-color;
+            cursor: pointer;
+        }
+    }
+}
