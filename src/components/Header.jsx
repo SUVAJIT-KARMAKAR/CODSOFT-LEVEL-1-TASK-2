@@ -24,7 +24,7 @@ const Header = () => {
             </div>
 
             <div className="header-counter">
-                <h3 className="header-counter-language"> 5 LANGUAGES ADDED</h3>
+                <h3 className="header-counter-language"> 6 LANGUAGES ADDED</h3>
             </div>
 
             <div className="header-button">

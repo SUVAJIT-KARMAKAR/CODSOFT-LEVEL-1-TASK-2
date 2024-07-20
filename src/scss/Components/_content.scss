@@ -38,7 +38,6 @@
                 width: 55%;
                 padding: 1.5rem 2rem;
                 color: $tertiary-contrast-color;
-
             }
 
             &__icon {
@@ -57,5 +56,57 @@
                 }
             }
         }
+    }
+
+    &-main {
+        margin-top: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5rem;
+
+        &-card {
+            border: 0.1rem solid $primary-contrast-color;
+            border-radius: 1rem;
+            width: 30rem;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            transition: all 0.5s ease;
+
+            &__icon {
+                color: $primary-contrast-color;
+            }
+
+            &__paragraph {
+                color: $primary-contrast-color;
+                font-size: clamp(1.5rem, 2vw, 2.1rem);
+                font-weight: bold;
+            }
+
+            &:hover {
+                background-color: $primary-contrast-color;
+                cursor: pointer;
+                .icon{
+                    color: black;
+                }
+                .paragraph {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    &-arrow {
+        color: $secondary-contrast-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding-top: 5rem;
+        padding-bottom: 2rem;;        
     }
 }
