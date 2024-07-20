@@ -7,6 +7,7 @@ import './App.scss';
 // COMPONENTS IMPOR 
 import Menu from './components/Menu';
 import Header from './components/Header';
+import Content from './components/Content';
 
 const App = () => {
   const[loading, setloading] = useState(false);
@@ -48,7 +49,8 @@ const App = () => {
           : (
             <>
               <Menu/>
-              <Header/>             
+              <Header/>    
+              <Content/>         
             </>
           )
 
