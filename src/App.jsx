@@ -1,6 +1,7 @@
 // APP 
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from 'react';
 import HashLoader from "react-spinners/HashLoader";
+
 import './App.scss';
 
 // COMPONENTS IMPOR 
@@ -14,16 +15,27 @@ const App = () => {
       setloading(true)
       setTimeout( () => {
           setloading(false)
-      }, 5000);
+      }, 4000);
   }, []);
 
 
   return (
-    <div className="app">
+    <div 
+      className="app"
+    >
       {
         loading ? 
         (
-          <div className="app-loader">
+          <div 
+            className="app-loader"
+            style={{
+              minHeight: "100vh",
+              width: "100vw",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center" 
+            }}
+          >
             <HashLoader
               className="app-loader__icon"
               size={50}

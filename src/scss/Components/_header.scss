@@ -1,0 +1,71 @@
+.header {
+    width: 100vw;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &-title {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: $tertiary-contrast-color;
+        font-size: clamp(1.5rem, 2.5vw, 2.9rem);
+    }
+
+    &-paragraph {
+        padding: 0rem 3rem;
+        text-align: center;
+        color: $secondary-contrast-color;
+        font-size: clamp(1rem, 1.5vw, 1.6rem);
+    }
+
+    &-counter {
+        margin-top: 9em;
+        
+        &-language {
+            color: $primary-contrast-color;
+            font-size: clamp(2rem, 4vw, 5rem);
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 0.05rem $primary-contrast-color;
+        }
+    }
+
+    &-button {
+        margin-top: 10rem;
+        padding: 2rem 7rem;
+        border: 0.2rem solid $tertiary-contrast-color;
+        border-radius: 1.5rem;
+
+        transition: all 0.5s ease;
+
+        &:hover {
+            background-color: $primary-icon-color;
+            border: 0.2rem solid $primary-icon-color;
+            cursor: pointer;
+
+            a {
+                color: $tertiary-black-color;
+            }
+        }
+
+        a {
+            color: $primary-icon-color;
+            text-decoration: none;
+            font-size: clamp(1.1rem, 1.5vw, 1.8rem);
+            font-weight: bold;
+        }
+    }
+    
+    &-arrow {
+        margin-top: 3rem;
+        color: $tertiary-contrast-color;
+        transition: all 0.5s ease;
+        
+        &:hover {
+            cursor: pointer;
+            transform: scale(-1.2);
+        }
+    }
+}
