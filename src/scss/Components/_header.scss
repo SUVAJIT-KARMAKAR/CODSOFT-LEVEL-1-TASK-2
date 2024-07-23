@@ -55,20 +55,23 @@
         a {
             color: $primary-icon-color;
             text-decoration: none;
-            font-size: clamp(1.1rem, 1.5vw, 1.8rem);
+            font-size: clamp(1.5rem, 2vw, 2.1rem);
             font-weight: bold;
         }
     }
     
     &-arrow {
-        margin-top: 3rem;
+        margin-top: 5rem;
         color: $tertiary-contrast-color;
         transition: all 0.5s ease;
+        padding: 0.5rem;
+        border: 0.1rem solid transparent;
+        border-radius: 50%;
         
         &:hover {
             cursor: pointer;
-            backface-visibility: hidden;
-            transform: scale(-1.2);
+            transform: translateY(-0.5rem);
+            border: 0.1rem solid $tertiary-contrast-color;
         }
     }
 }

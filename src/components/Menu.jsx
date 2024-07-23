@@ -13,13 +13,15 @@ const Menu = () => {
                 >prog</span></h2>
             </div>
 
-            <a href="#" target="_blank">
-                <div className="menu-fork">
-                    <LuGitFork  
+
+            <div className="menu-fork">
+                <a href="#" target="_blank" className="menu-fork-icon">
+                    CONTRIBUTE
+                </a>
+                <LuGitFork  
                         size={20}    
-                    />
-                </div>
-            </a>
+                />
+            </div>
 
         </div>
     );  

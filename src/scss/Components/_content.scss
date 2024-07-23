@@ -105,8 +105,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 5rem;
 
-        padding-top: 5rem;
-        padding-bottom: 2rem;;        
+        &__icon {
+            transition: all 0.5s ease;
+            padding: 0.5rem;
+            border: 0.1rem solid transparent;
+            border-radius: 50%;
+
+            &:hover {
+                cursor: pointer;
+                transform: translateY(-0.5rem);
+                border: 0.1rem solid $secondary-contrast-color;
+            }
+        }
     }
 }

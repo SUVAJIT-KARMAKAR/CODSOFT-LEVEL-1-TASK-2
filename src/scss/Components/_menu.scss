@@ -26,6 +26,16 @@
         border: 0.1rem solid $primary-icon-color;
         border-radius: 1rem;
         transition: all 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: row;
+        gap: 0.5rem;
+
+        &-icon {
+            text-decoration: none;
+            color: $tertiary-contrast-color;
+        }
 
         &:hover {
             background-color: $primary-icon-color;

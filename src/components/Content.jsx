@@ -66,6 +66,7 @@ const Content = () => {
                 <div className="content-arrow">
                     <FaArrowDown 
                         size={30}
+                        className="content-arrow__icon"
                     />
                 </div>
             </div>

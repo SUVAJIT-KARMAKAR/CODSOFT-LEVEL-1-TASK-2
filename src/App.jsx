@@ -8,6 +8,7 @@ import './App.scss';
 import Menu from './components/Menu';
 import Header from './components/Header';
 import Content from './components/Content';
+import Footer from './components/Footer';
 
 const App = () => {
   const[loading, setloading] = useState(false);
@@ -50,7 +51,8 @@ const App = () => {
             <>
               <Menu/>
               <Header/>    
-              <Content/>         
+              <Content/>     
+              <Footer/>    
             </>
           )
 
