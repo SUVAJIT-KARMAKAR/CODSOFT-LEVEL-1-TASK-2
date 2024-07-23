@@ -68,7 +68,7 @@ The repository will be soon updated with `contributions.md`
 
 
 ## VIST OUR WEBSITE 
-[<#/>easyFIND.prog](https://www.google.com)
+[<#/>easyFIND.prog](https://easy-find-prog.vercel.app)
 
 ## AUTHOR
 [@SUVAJIT-KARMAKAR](https://github.com/SUVAJIT-KARMAKAR)

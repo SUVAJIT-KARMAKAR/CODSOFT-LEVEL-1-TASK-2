@@ -15,7 +15,7 @@ const Menu = () => {
 
 
             <div className="menu-fork">
-                <a href="#" target="_blank" className="menu-fork-icon">
+                <a href="https://github.com/SUVAJIT-KARMAKAR/CODSOFT-LEVEL-1-TASK-2" target="_blank" className="menu-fork-icon">
                     CONTRIBUTE
                 </a>
                 <LuGitFork  
